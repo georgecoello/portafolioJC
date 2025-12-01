@@ -1,0 +1,20 @@
+:root {
+  --jc-yellow: #F6C84C;
+  --jc-green: #5FD36B;
+  --jc-cyan: #2BC0E4;
+  --jc-blue: #2A9DF4;
+  --jc-indigo: #2A6FB8;
+  --jc-purple: #6E5CF8;
+  --jc-dark: #223044;
+  --jc-dark-2: #34495e;
+  --jc-muted: #666666;
+  --jc-bg: #f8f9fa;
+  --jc-surface: #ffffff;
+  --jc-text: #2c3e50;
+  --jc-on-dark: #ecf0f1;
+  --jc-gradient: linear-gradient(135deg, var(--jc-cyan) 0%, var(--jc-indigo) 100%);
+}
+
+html, body {
+  background: var(--jc-bg);
+}
