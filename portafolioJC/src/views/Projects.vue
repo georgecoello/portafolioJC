@@ -39,7 +39,7 @@ export default {
     return {
       projects: projects,
       activeFilter: 'Todos',
-      filters: ['Todos', 'Vue.js', 'React', 'JavaScript', 'Node.js']
+      filters: ['Todos', 'Vue.js', 'HTML5', 'JavaScript', 'MySQL', 'PHP' ]
     }
   },
   computed: {

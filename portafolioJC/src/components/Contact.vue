@@ -58,9 +58,9 @@ export default {
   name: 'Contact',
   data() {
     return {
-      email: 'tu.email@ejemplo.com',
-      phone: '+1 234 567 890',
-      location: 'Ciudad, País',
+      email: 'jorgecoello1998@hotmail.com',
+      phone: '+504 9642-2659',
+      location: 'Tegucigalpa, Francisco Morazán, Honduras',
       form: {
         name: '',
         email: '',

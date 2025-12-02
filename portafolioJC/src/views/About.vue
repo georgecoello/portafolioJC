@@ -42,11 +42,11 @@ export default {
         },
         {
           category: 'Backend',
-          items: ['Node.js', 'Python', 'PHP', 'MySQL', 'Postman', 'SQLite', 'SQL Developer']
+          items: ['Node.js', 'Python', 'PHP', 'MySQL', 'Postman','SQL', 'MySQL', 'SQLite', 'SQL Developer']
         },
         {
           category: 'Herramientas',
-          items: ['Github', 'Vite', 'Figma', 'VS Code', 'Tableau', 'Canva', 'Microsoft Office', 'Django', 'Ubuntu', 'Windows' ]
+          items: ['Github', 'Vite', 'Figma', 'VS Code', 'Tableau', 'Canva']
         }
       ]
     }

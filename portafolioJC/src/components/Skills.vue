@@ -23,12 +23,12 @@ export default {
       skills: [
         {
           name: 'Frontend Development',
-          description: 'Vue.js, React, JavaScript, TypeScript, HTML5, CSS3',
+          description: 'Vue.js, React, JavaScript, HTML5, Bootstrap, Tailwind CSS, Django',
           icon: 'fas fa-code'
         },
         {
           name: 'Backend Development',
-          description: 'Node.js, Express, Python, PHP, Bases de datos',
+          description: 'Node.js, Python, PHP, Postman, SQL, MySQL, SQLite, SQL Developer',
           icon: 'fas fa-server'
         },
         {
@@ -37,8 +37,8 @@ export default {
           icon: 'fas fa-palette'
         },
         {
-          name: 'DevOps',
-          description: 'Git, Docker, CI/CD, Deployment',
+          name: 'Herramientas y Tecnologías',
+          description: 'Github, Vite, Figma, VS Code, Tableau, Canva, Microsoft Office, Ubuntu',
           icon: 'fas fa-cloud'
         }
       ]
