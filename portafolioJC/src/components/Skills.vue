@@ -38,7 +38,7 @@ export default {
         },
         {
           name: 'Herramientas y Tecnologías',
-          description: 'Github, Vite, Figma, VS Code, Tableau, Canva, Microsoft Office, Ubuntu',
+          description: 'Github, Figma, VS Code, Tableau, Canva, Microsoft Office, Ubuntu',
           icon: 'fas fa-cloud'
         }
       ]

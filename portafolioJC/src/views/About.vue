@@ -46,7 +46,7 @@ export default {
         },
         {
           category: 'Herramientas',
-          items: ['Github', 'Vite', 'Figma', 'VS Code', 'Tableau', 'Canva']
+          items: ['Github', 'Figma', 'VS Code', 'Tableau', 'Canva']
         }
       ]
     }
