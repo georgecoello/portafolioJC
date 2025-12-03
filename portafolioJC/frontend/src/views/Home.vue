@@ -48,7 +48,7 @@ export default {
       name: 'Jorge Isaac Coello Berrios',
       title: 'Frontend Developer & Diseñador UI/UX',
       description: 'Soy un desarrollador web comprometido con ayudar a su empresa a poder alcanzar cada uno de sus metas y objetivos, con la intención de querer marcar la diferencia y alcanzar el éxito en sus proyectos. Me especializo en crear experiencias digitales atractivas y funcionales utilizando las últimas tecnologías como Vue.js, React y Node.js. Estoy apasionado por el diseño centrado en el usuario y siempre busco mejorar mis habilidades para ofrecer soluciones innovadoras.\nAdemás, de trabajar en este tipo de proyectos, me gusta mantenerme relajado escuchando música, practicando guitarra y ukelele, y me desempeño como lider de jóvenes en mi iglesia, lo cual me permite desarrollar habilidades de liderazgo y trabajo en equipo.',
-      featuredProjects: projects.filter(project => project.featured).slice(0, 3)
+      featuredProjects: projects.filter(project => project.featured).slice(0, 4)
     }
   }
 }
