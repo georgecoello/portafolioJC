@@ -5,7 +5,6 @@
       <div class="project-overlay">
         <div class="project-links">
           <a :href="project.demo" target="_blank" class="btn">Demo</a>
-          <a :href="project.github" target="_blank" class="btn">GitHub</a>
         </div>
       </div>
     </div>

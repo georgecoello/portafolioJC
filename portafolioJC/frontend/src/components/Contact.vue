@@ -49,16 +49,6 @@
               <p>24 - 48 horas</p>
             </div>
           </div>
-          
-          <div class="backend-status">
-            <div class="status-icon" :class="{ 'online': isBackendOnline, 'offline': !isBackendOnline }">
-              {{ isBackendOnline ? '●' : '○' }}
-            </div>
-            <div class="status-details">
-              <h3>Estado del Servidor</h3>
-              <p>{{ isBackendOnline ? 'En línea' : 'Verificando...' }}</p>
-            </div>
-          </div>
         </div>
         
         <!-- Formulario -->
@@ -711,7 +701,7 @@ export default {
   gap: 2rem;
 }
 
-.contact-item, .backend-status {
+.contact-item {
   display: flex;
   align-items: flex-start;
   gap: 1.2rem;
@@ -740,37 +730,16 @@ export default {
   flex-shrink: 0;
 }
 
-.contact-details h3, .status-details h3 {
+.contact-details h3 {
   margin-bottom: 0.5rem;
   color: var(--jc-primary, #3498db);
   font-size: 1.2rem;
 }
 
-.contact-details p, .status-details p {
+.contact-details p {
   opacity: 0.9;
   line-height: 1.5;
   font-size: 1rem;
-}
-
-/* Estado del backend */
-.backend-status .status-icon {
-  font-size: 1.5rem;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-}
-
-.backend-status .status-icon.online {
-  background: rgba(46, 204, 113, 0.15);
-  color: #2ecc71;
-}
-
-.backend-status .status-icon.offline {
-  background: rgba(231, 76, 60, 0.15);
-  color: #e74c3c;
 }
 
 /* Formulario */
