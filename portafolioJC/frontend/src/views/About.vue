@@ -51,7 +51,7 @@ export default {
     return {
       bio: 'Soy un desarrollador web comprometido con ayudar a su empresa a poder alcanzar cada uno de sus metas y objetivos, con la intención de querer marcar la diferencia y alcanzar el éxito en sus proyectos.',
       cvFileName: 'CV_Jorge_Coello.pdf', // Nombre del archivo PDF
-      cvPath: '/CV_JorgeCoello (1)-1.pdf', // Ruta donde está el PDF en tu proyecto
+      cvPath: '/CV_JorgeCoello.pdf', // Ruta donde está el PDF en tu proyecto
       skills: [
         {
           category: 'Frontend',
@@ -202,7 +202,7 @@ export default {
 .about-text p {
   line-height: 1.8;
   margin-bottom: 2rem;
-  color: var(--jc-muted);
+  color: var(--jc-text-skill);
   font-size: 1.1rem;
 }
 
@@ -278,7 +278,7 @@ export default {
 .skill-item {
   display: inline-flex;
   align-items: center;
-  background: var(--jc-bg);
+  background: var(--jc-21221);
   color: var(--jc-text);
   padding: 0.5rem 1rem;
   border-radius: 20px;

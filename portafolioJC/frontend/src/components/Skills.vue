@@ -93,7 +93,7 @@ export default {
 }
 
 .skill-item p {
-  color: var(--jc-muted);
+  color: var(--jc-text-skill);
   line-height: 1.6;
 }
 </style>

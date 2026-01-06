@@ -45,8 +45,15 @@
           
           <div class="contact-item">
             <div class="contact-details">
+              <h3>Telegram</h3>
+              <p>@JorgeCoello</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-details">
               <h3>Tiempo de Respuesta</h3>
-              <p>24 - 48 horas</p>
+              <p>24 - 48 Horas</p>
             </div>
           </div>
         </div>
@@ -591,7 +598,7 @@ export default {
 <style scoped>
 .contact {
   padding: 5rem 2rem;
-  background: var(--jc-dark, #2c3e50);
+  background: var(--jc-dark);
   color: white;
   min-height: 100vh;
 }
@@ -605,7 +612,7 @@ export default {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 2.8rem;
-  color: var(--jc-primary, #3498db);
+  color: var(--jc-primary);
   font-weight: 700;
 }
 
@@ -725,14 +732,14 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(52, 152, 219, 0.15);
+  background: rgba(255, 122, 89, 0.12);
   border-radius: 50%;
   flex-shrink: 0;
 }
 
 .contact-details h3 {
   margin-bottom: 0.5rem;
-  color: var(--jc-primary, #3498db);
+  color: var(--jc-primary);
   font-size: 1.2rem;
 }
 
@@ -781,10 +788,10 @@ export default {
 .form-group input,
 .form-group textarea {
   padding: 1rem 1.2rem;
-  border: 2px solid #34495e;
+  border: 2px solid var(--jc-dark-2);
   border-radius: 8px;
-  background: #2c3e50;
-  color: white;
+  background: var(--jc-dark);
+  color: var(--jc-on-dark);
   font-size: 1rem;
   font-family: inherit;
   transition: all 0.3s;
@@ -793,15 +800,15 @@ export default {
 
 .form-group input:hover,
 .form-group textarea:hover {
-  border-color: #4a6b8a;
+  border-color: rgba(255, 122, 89, 0.3);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--jc-primary, #3498db);
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
-  background: #34495e;
+  border-color: var(--jc-primary);
+  box-shadow: 0 0 0 3px rgba(255, 122, 89, 0.14);
+  background: var(--jc-dark-2);
 }
 
 .form-group input.error-border,
@@ -865,24 +872,23 @@ export default {
 }
 
 .btn-primary {
-  background: var(--jc-primary, #3498db);
-  color: white;
+  background: var(--jc-primary);
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: #2980b9;
+  background: #e05e46;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 122, 89, 0.28);
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--jc-on-dark);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .btn:disabled {
@@ -893,7 +899,7 @@ export default {
 }
 
 .btn.disabled {
-  background: #7f8c8d;
+  background: var(--jc-muted);
 }
 
 .spinner {

@@ -93,7 +93,7 @@ export default {
 .btn {
   padding: 0.5rem 1rem;
   background: var(--jc-blue);
-  color: var(--jc-surface);
+  color: var(--jc-text-skill);
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s;
@@ -101,6 +101,7 @@ export default {
 
 .btn:hover {
   background: var(--jc-indigo);
+  color: var(--jc-muted);
 }
 
 .project-info {
@@ -125,7 +126,7 @@ export default {
 
 .tech-tag {
   background: var(--jc-bg);
-  color: var(--jc-text);
+  color: var(--jc-text-skill);
   padding: 0.25rem 0.5rem;
   border-radius: 15px;
   font-size: 0.8rem;

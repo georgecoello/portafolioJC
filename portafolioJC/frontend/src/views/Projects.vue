@@ -82,7 +82,7 @@ export default {
 .page-description {
   text-align: center;
   margin-bottom: 3rem;
-  color: var(--jc-muted);
+  color: var(--jc-text-skill);
   font-size: 1.2rem;
 }
 
@@ -98,20 +98,21 @@ export default {
   padding: 0.5rem 1.5rem;
   border: 2px solid var(--jc-blue);
   background: var(--jc-surface);
-  color: var(--jc-blue);
+  color: var(--jc-text-skill);
   border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s;
+  font-weight: bold;
 }
 
 .filter-btn:hover {
   background: var(--jc-blue);
-  color: var(--jc-surface);
+  color: var(--jc-text-skill);
 }
 
 .filter-btn.active {
   background: var(--jc-blue);
-  color: var(--jc-surface);
+  color: var(--jc-text-skill);
 }
 
 .projects-grid {

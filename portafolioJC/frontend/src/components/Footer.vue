@@ -39,7 +39,7 @@ export default {
       description: 'Soy un desarrollador web comprometido con ayudar a su empresa a poder alcanzar cada uno de sus metas y objetivos, con la intención de querer marcar la diferencia y alcanzar el éxito en sus proyectos.',
       socialLinks: [
         { name: 'GitHub', url: 'https://github.com/georgecoello' },
-        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorge-isaac-coello-berrios-947526237/' }
+        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/jorge-coello-947526237/' }
       ]
     }
   },

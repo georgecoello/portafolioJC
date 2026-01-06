@@ -1,18 +1,28 @@
 :root {
-  --jc-yellow: #F6C84C;
-  --jc-green: #5FD36B;
-  --jc-cyan: #2BC0E4;
-  --jc-blue: #2A9DF4;
-  --jc-indigo: #2A6FB8;
-  --jc-purple: #6E5CF8;
-  --jc-dark: #223044;
-  --jc-dark-2: #34495e;
-  --jc-muted: #666666;
-  --jc-bg: #f8f9fa;
-  --jc-surface: #ffffff;
-  --jc-text: #2c3e50;
-  --jc-on-dark: #ecf0f1;
-  --jc-gradient: linear-gradient(135deg, var(--jc-cyan) 0%, var(--jc-indigo) 100%);
+  /* Paleta personalizada (modo oscuro) */
+  /* Accent colors */
+  --jc-blue: #8B5CF6; /* Acento 1 (Violeta) */
+  --jc-cyan: #2DD4BF; /* Acento 2 (Cian) */
+  --jc-purple: #8B5CF6; /* alias para compatibilidad */
+  --jc-indigo: var(--jc-cyan); /* alias para compatibilidad */
+  --jc-21221: #E0E7FF; /* nuevo color para textos de habilidades */
+
+  /* color primario (usado en enlaces/hover) */
+  --jc-primary: var(--jc-blue);
+
+  /* Fondos */
+  --jc-bg: #0F172A; /* Fondo Base */
+  --jc-surface: #1E293B; /* Fondo Elevado */
+  --jc-dark: var(--jc-bg); /* mantener compatibilidad */
+  --jc-dark-2: var(--jc-surface);
+
+  /* Textos */
+  --jc-text: #78afe5; /* Texto Primario */
+  --jc-muted: #111214; /* Texto Secundario */
+  --jc-on-dark: #F8FAFC; /* texto sobre fondo oscuro */
+  --jc-text-skill: #E0E7FF; /* Texto de habilidades */
+
+  --jc-gradient: linear-gradient(135deg, var(--jc-blue) 0%, var(--jc-cyan) 100%);
 }
 
 html, body {

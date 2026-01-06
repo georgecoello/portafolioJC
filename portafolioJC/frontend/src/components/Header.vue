@@ -228,7 +228,7 @@ export default {
   }
   
   .nav-links a.router-link-active {
-    background: rgba(52, 152, 219, 0.1);
+    background: rgba(255, 122, 89, 0.08);
   }
 }
 
